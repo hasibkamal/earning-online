@@ -1,0 +1,15 @@
+
+/*-------------------------------------
+	18. Loading 
+-------------------------------------*/  
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: url(img/logo/pre-loader.gif) center no-repeat var(--clr-white);
+    text-align: center;
+}

@@ -1,0 +1,279 @@
+/*================================
+    #RESPONSIVE CSS
+====================================*/
+
+/* Large Device: 1200px. */
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+	.search-cart .cart-li li .site-cart .site-cart-list {
+		left: -225px;
+	}
+
+	.hero-single {
+		padding-top: 0rem;
+	}
+
+	.hero-2 .hero-single {
+		height: 100vh;
+		padding-top: 0;
+	}
+
+	.feature-area {
+		padding-top: 10rem;
+	}
+
+	.hero-single .hero-content .hero-title {
+		font-size: 45px;
+	}
+
+	.hero-shape img.shape-1 {
+		bottom: -50px;
+		left: 0;
+		z-index: 2;
+		height: 20rem;
+	}
+
+	.hero-section.pos-rel {
+		overflow: hidden;
+	}
+
+	/*	Choose*/
+
+	.choose-right {
+		padding: 6rem 3rem 6rem 0rem;
+	}
+
+	.choose-right p {
+		padding-right: 0rem;
+	}
+
+
+	/*	Scroll Top*/
+
+	#scrtop {
+		bottom: 100px;
+	}
+
+}
+
+
+/* Large Device: 1200px. */
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	.reg-wpr {
+		padding-top: 3rem;
+		padding-bottom: 5rem;
+	}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+
+	.reg-wpr {
+		padding-top: 15rem;
+		padding-bottom: 5rem;
+	}
+}
+
+/* Tablet Layout: 768px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.site-breadcrumb {
+		padding-top: 8rem;
+	}
+
+	/*	Grid*/
+
+	.grid-2 {
+		grid-template-columns: 1fr;
+	}
+
+	.grid-3 {
+		grid-template-columns: repeat(2,1fr);
+	}
+
+	.grid-4 {
+		grid-template-columns: repeat(2,1fr);
+	}
+
+	/*	Step*/
+
+	.step-right {
+		padding: 3.5rem 60px 70px 60px;
+	}
+
+	.preview-profile {
+		align-items: center;
+		order: -1;
+	}
+
+	/*	Login*/
+
+	.reg-wpr {
+		padding-top: 15rem;
+		padding-bottom: 5rem;
+	}
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+	/*	Padding*/
+
+	.de-padding{
+		padding: 5rem 0;
+	}
+
+	.de-pt {
+		padding-top: 5rem;
+	}
+
+	.pt-120 {
+		padding-top: 5rem;
+	}
+
+	.pt-105 {
+		padding-top: 5rem;
+	}
+
+	.pt-210 {
+		padding-top: 13rem;
+	}
+
+	.de-pb {
+		padding-bottom: 5rem;
+	}
+
+	.pb-120 {
+		padding-bottom: 5rem;
+	}
+
+	.pb-105 {
+		padding-bottom: 5rem;
+	}
+
+	.pb-80 {
+		padding-botto: 5rem;
+	}
+
+
+	/*	grids*/
+
+	.grid-2 {
+		grid-template-columns: 1fr;
+	}
+
+	.grid-3 {
+		grid-template-columns: 1fr;
+	}
+
+	.grid-4 {
+		grid-template-columns: 1fr;
+	}
+
+	.grid-5 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	/*	Navigation*/
+
+	.header {
+		height: auto;
+		padding: 3rem 0;
+	}
+
+	.logo-area {
+		margin-bottom: 2rem;
+	}
+
+	.main-navigation .user-area {
+		gap: 2rem;
+		flex-direction: column;
+	}
+
+	.main-navigation {
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	/*Step*/
+
+	.step-wpr {
+		grid-template-columns: 100%;
+	}
+
+	.step-right {
+		padding: 3.5rem 30px 70px 30px;
+	}
+
+	.nav-pills .nav-item .nav-link {
+		margin-bottom: 1rem;
+	}
+
+	.pd {
+		padding: 2rem;
+	}
+
+	.preview-title {
+		font-size: 1.8rem;
+	}
+
+	.preview-profile {
+		align-items: center;
+		order: -1;
+	}
+
+	/*	Login Page*/
+
+	.reg-area {
+		height: auto;
+	}
+
+	.reg-wpr {
+		width: 100%;
+		position: inherit;
+		top: 0;
+		left: 0;
+		transform: translate(0,0);
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.main-navigation .navbar.bsnav-sticky .navbar-collapse ul li a {
+		color: #333;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
